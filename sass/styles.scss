@@ -1,0 +1,155 @@
+// Import all the variables into the main css file.
+@import "variables";
+
+// I gather this file is a starting point for the project.
+//@import "bootstrap";
+
+@import "compass";
+
+/*---------------------------------------*/
+
+$main-post-title-h1-bgcolor:        #eee; //#6eb92b;
+$br-size:							8px;
+$main-titleh2-text-color:            	#aaa;
+$main-titleh3-text-color:            	#888;
+$main-titleh4-text-color:            	#666;
+$main-post-font-family:    			"微軟正黑體";
+
+/*, Helvetica, Arial, sans-serif---------------------------------------*/
+
+	h2{
+			color: $main-titleh2-text-color;
+	}
+	h3{
+			color: $main-titleh3-text-color;
+	}
+	h4{
+			color: $main-titleh4-text-color;
+			margin: 10px 0;
+			padding: 0;
+	}
+
+.navbar-inner{
+			ul.nav{
+					li{
+					a:hover{
+							color: #ffffff;
+							background-color: #111111;
+							}
+					}
+			}
+}
+section.main-post{
+	h2{
+		margin: 20px 0 0 0;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: $main-post-title-h1-bgcolor;
+		-webkit-border-radius: $br-size;
+   		-moz-border-radius: $br-size;
+   		border-radius: $br-size;
+   		line-height: 1.5em;
+	}
+	ul.moodplant{
+
+				list-style-type: none;
+				margin: 0;
+
+				li{
+					display: block;
+
+					.moodplant-item{
+									p{
+										display: block;
+										-webkit-box-sizing: $br-size*2;
+										-moz-box-sizing: $br-size*2;
+										box-sizing: $br-size*2;
+									}
+					}
+					.brandImg img{
+
+						margin: 15px 0 0 0;
+						height: 115px;
+
+					}
+					.mpstory{
+							//background-img: url('images/mp_water.jpg');
+							//background: image-url('images/mp_water.jpg');
+							//background-size: cover;
+							//background-color: #ccc;
+					}
+				}
+	}
+	.main-img figure {
+						margin: 20px 0 0 0;
+						text-align: center;
+
+						img{
+							-webkit-border-radius: 16px;
+   							-moz-border-radius: 16px;
+   							border-radius: 16px;
+   							border: 1px solid #ccc;
+							}
+						p{
+						margin: 10px 0 0 0;
+						}
+	}
+	section.main-contact{
+	margin: 0 0 80px;
+						.mpcontactus{
+									margin: 20px 0px;
+									line-height: 1.5em;
+						}
+						.QRcode{
+								margin: 15px 0;
+								text-align: right;
+						}
+	}
+	footer{
+		font-size: x-small;
+		color: #999;
+	}
+}
+
+@media (min-width: 767px) {
+	
+}
+
+@media (min-width: 767px) {
+	section.main-post ul.moodplant li.item-right p{
+ 	   width: 48.61878453038674%;
+	   *width: 48.56559304102504%;
+	}
+}
+
+/*
+		background: image-url('img_moodplant.jpg');
+		background-size: cover;
+     	@include box-shadow( 0 0 16px rgba(0,0,0,0.15));
+        @include border-radius(0px);
+    	@include box-shadow(none);
+
+-webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+
+
+i.glyphicon{
+    width: 72px;
+    height: 72px;
+    font-size: 72px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*/

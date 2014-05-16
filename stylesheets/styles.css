@@ -1,0 +1,131 @@
+/*---------------------------------------*/
+/*, Helvetica, Arial, sans-serif---------------------------------------*/
+/* line 20, ../sass/styles.scss */
+h2 {
+  color: #aaaaaa;
+}
+
+/* line 23, ../sass/styles.scss */
+h3 {
+  color: #888888;
+}
+
+/* line 26, ../sass/styles.scss */
+h4 {
+  color: #666666;
+  margin: 10px 0;
+  padding: 0;
+}
+
+/* line 35, ../sass/styles.scss */
+.navbar-inner ul.nav li a:hover {
+  color: #ffffff;
+  background-color: #111111;
+}
+
+/* line 43, ../sass/styles.scss */
+section.main-post h2 {
+  margin: 20px 0 0 0;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  line-height: 1.5em;
+}
+/* line 55, ../sass/styles.scss */
+section.main-post ul.moodplant {
+  list-style-type: none;
+  margin: 0;
+}
+/* line 60, ../sass/styles.scss */
+section.main-post ul.moodplant li {
+  display: block;
+}
+/* line 64, ../sass/styles.scss */
+section.main-post ul.moodplant li .moodplant-item p {
+  display: block;
+  -webkit-box-sizing: 16px;
+  -moz-box-sizing: 16px;
+  box-sizing: 16px;
+}
+/* line 71, ../sass/styles.scss */
+section.main-post ul.moodplant li .brandImg img {
+  margin: 15px 0 0 0;
+  height: 115px;
+}
+/* line 85, ../sass/styles.scss */
+section.main-post .main-img figure {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+/* line 89, ../sass/styles.scss */
+section.main-post .main-img figure img {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+/* line 95, ../sass/styles.scss */
+section.main-post .main-img figure p {
+  margin: 10px 0 0 0;
+}
+/* line 99, ../sass/styles.scss */
+section.main-post section.main-contact {
+  margin: 0 0 80px;
+}
+/* line 101, ../sass/styles.scss */
+section.main-post section.main-contact .mpcontactus {
+  margin: 20px 0px;
+  line-height: 1.5em;
+}
+/* line 105, ../sass/styles.scss */
+section.main-post section.main-contact .QRcode {
+  margin: 15px 0;
+  text-align: right;
+}
+/* line 110, ../sass/styles.scss */
+section.main-post footer {
+  font-size: x-small;
+  color: #999;
+}
+
+@media (min-width: 767px) {
+  /* line 121, ../sass/styles.scss */
+  section.main-post ul.moodplant li.item-right p {
+    width: 48.61878453038674%;
+    *width: 48.56559304102504%;
+  }
+}
+/*
+		background: image-url('img_moodplant.jpg');
+		background-size: cover;
+     	@include box-shadow( 0 0 16px rgba(0,0,0,0.15));
+        @include border-radius(0px);
+    	@include box-shadow(none);
+
+-webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+
+
+i.glyphicon{
+    width: 72px;
+    height: 72px;
+    font-size: 72px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*/
