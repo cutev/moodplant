@@ -23,7 +23,7 @@ h4 {
   background-color: #111111;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 section.main-post h2 {
   margin: 20px 0 0 0;
   padding: 0 10px;
@@ -36,65 +36,65 @@ section.main-post h2 {
   border-radius: 8px;
   line-height: 1.5em;
 }
-/* line 55, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 section.main-post ul.moodplant {
   list-style-type: none;
   margin: 0;
 }
-/* line 60, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 section.main-post ul.moodplant li {
   display: block;
 }
-/* line 64, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 section.main-post ul.moodplant li .moodplant-item p {
   display: block;
   -webkit-box-sizing: 16px;
   -moz-box-sizing: 16px;
   box-sizing: 16px;
 }
-/* line 71, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 section.main-post ul.moodplant li .brandImg img {
   margin: 15px 0 0 0;
   height: 115px;
 }
-/* line 85, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 section.main-post .main-img figure {
   margin: 20px 0 0 0;
   text-align: center;
 }
-/* line 89, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 section.main-post .main-img figure img {
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   border-radius: 16px;
   border: 1px solid #ccc;
 }
-/* line 95, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 section.main-post .main-img figure p {
   margin: 10px 0 0 0;
 }
-/* line 99, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 section.main-post section.main-contact {
   margin: 0 0 80px;
 }
-/* line 101, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 section.main-post section.main-contact .mpcontactus {
   margin: 20px 0px;
   line-height: 1.5em;
 }
-/* line 105, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 section.main-post section.main-contact .QRcode {
   margin: 15px 0;
   text-align: right;
 }
-/* line 110, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 section.main-post footer {
   font-size: x-small;
   color: #999;
 }
 
 @media (min-width: 767px) {
-  /* line 121, ../sass/styles.scss */
+  /* line 122, ../sass/styles.scss */
   section.main-post ul.moodplant li.item-right p {
     width: 48.61878453038674%;
     *width: 48.56559304102504%;
